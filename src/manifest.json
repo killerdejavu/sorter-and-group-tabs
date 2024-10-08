@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Sorter",
+  "version": "0.0.1",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "content_scripts": [{
+    "matches": ["*://github.com/parcel-bundler/*"],
+    "js": ["parcel-content-script.js"]
+  }],
+  "commands": {
+    "sort": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Run \"sort\" on the current page."
+    }
+  }
+}
