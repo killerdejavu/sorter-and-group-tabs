@@ -13,7 +13,7 @@ Fear not, fellow tab hoarder! **Tab-zilla** is here to rescue you from the chaos
 
 ## 🎮 How to Use It (Even a Sleep-Deprived Developer Can Do It!)
 
-1. Click the extension icon (it's the one that doesn't spark joy... yet)
+1. Cmd + Shift + P (it's the one that doesn't spark joy... yet)
 2. Choose your sorting destiny:
    - **Sort tabs**: Alphabetically arranges tabs like books in a library (if libraries were run by very obsessive-compulsive librarians)
    - **Group tabs**: Creates tab groups faster than you can say "Why did I open all these tabs anyway?"
