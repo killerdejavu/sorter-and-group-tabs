@@ -3,7 +3,7 @@
 - Open Chrome Extenstions
 - Load Unpacked
 - Select dist folder
-- use Cmd + Shift + P to Sort & Group
+- use Cmd + Shift + P to Sort & Group (It will also automatically do every 5 mins)
 
 
 # Logic
