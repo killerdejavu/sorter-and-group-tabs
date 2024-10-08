@@ -17,6 +17,17 @@ Fear not, fellow tab hoarder! **Tab-zilla** is here to rescue you from the chaos
 2. Choose your sorting destiny:
    - **Sort tabs**: Alphabetically arranges tabs like books in a library (if libraries were run by very obsessive-compulsive librarians)
    - **Group tabs**: Creates tab groups faster than you can say "Why did I open all these tabs anyway?"
+     
+## Usage
+- Open Chrome Extenstions
+- Load Unpacked
+- Select dist folder
+- use Cmd + Shift + P to Sort & Group (It will also automatically do every 5 mins)
+
+## Logic
+- It will sort the tabs by domain and last accessed date and then cerate tab group for them
+- You can change the login in background.js and then run `yarn run build` to create your own build
+- <img width="1774" alt="image" src="https://github.com/user-attachments/assets/7d500e3f-7aea-433c-9c12-2379e93581c9">
 
 ## 🎯 Perfect For:
 - Tab addicts (the first step is admitting you have a problem)
@@ -55,14 +66,6 @@ Made with ❤️ and an unhealthy amount of open tabs
 *P.S. If this extension has saved your sanity, feel free to buy the developer a coffee. They probably need it after sorting through all those tabs.*
 
 
-# Usage
-- Open Chrome Extenstions
-- Load Unpacked
-- Select dist folder
-- use Cmd + Shift + P to Sort & Group (It will also automatically do every 5 mins)
 
 
-# Logic
-- It will sort the tabs by domain and last accessed date and then cerate tab group for them
-- You can change the login in background.js and then run `yarn run build` to create your own build
-- <img width="1774" alt="image" src="https://github.com/user-attachments/assets/7d500e3f-7aea-433c-9c12-2379e93581c9">
+
