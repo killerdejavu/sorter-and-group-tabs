@@ -8,7 +8,8 @@
   },
   "permissions": [
     "tabs",
-    "tabGroups"
+    "tabGroups",
+    "alarms"
   ],
   "content_scripts": [{
     "matches": ["*://github.com/parcel-bundler/*"],

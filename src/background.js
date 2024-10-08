@@ -80,5 +80,14 @@ chrome.commands.onCommand.addListener((command) => {
   }
 });
 
-// call sortAndGroup every 5 mins as well
-setInterval(sortAndGroupTabs, 5 * 60 * 1000);
+chrome.alarms.create("5min", {
+  delayInMinutes: 5,
+  periodInMinutes: 5
+});
+
+// To ensure a non-persistent script wakes up, call this code at its start synchronously
+chrome.alarms.onAlarm.addListener(function(alarm) {
+  if (alarm.name === "5min") {
+    sortAndGroupTabs();
+  }
+});
